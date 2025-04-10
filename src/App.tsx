@@ -53,11 +53,11 @@ function App() {
           messages: [
             {
               role: "system",
-              content: "You are a helpful assistant that creates educational flashcards. Return your response as a JSON array with 'cards' containing objects with 'question' and 'answer' properties."
+              content: "You are a helpful assistant that creates educational flashcards. Return your response as a JSON array with 'cards' containing objects with 'question' and 'answer' properties. In slovak language!"
             },
             {
               role: "user",
-              content: `Generate 5 flashcards about the topic: ${customTopic}, focusing on Slovenská literatúra. Each flashcard should have a question and a detailed answer.`
+              content: `Generate 5 flashcards about the topic: ${customTopic}, focusing on Slovenská literatúra. Each flashcard should have a question and a detailed answer. In slovak language!`
             }
           ],
           response_format: { type: "json_object" }
